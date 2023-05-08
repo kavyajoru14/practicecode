@@ -3,7 +3,8 @@ import java.util.*;
 public class FactorialExample {
 	public static void main(String[] args) {
 		int i,fact=1;
-		int number=4;
+		Scanner sc=new Scanner(System.in);
+int number=sc.nextInt();		
 		
 		for(i=1;i<=number;i++){    
 			fact=fact*i;
